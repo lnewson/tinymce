@@ -1,3 +1,7 @@
+Unreleased
+    Fixed a bug where searching for spaces via the searchreplace plugin would cause erratic behaviour. #GH-4602
+    Fixed a bug where selecting a sub item in a list box wouldn't show as being selected. #GH-4628
+    Fixed a bug where the mceInsertRawHTML command wasn't inserting any content. #GH-4606
 Version 4.8.3 (2018-09-13)
     Fixed a bug where the Wordcount Plugin didn't correctly count words within tables on IE11. #TINY-1770
     Fixed a bug where it wasn't possible to move the caret out of a table on IE11 and Firefox. #TINY-1682
